@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nyvd4tu"
+    tools:context=".FormularioActivity">
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="325dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Digite o nome do livro..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+    <EditText
+        android:id="@+id/etNome2"
+        android:layout_width="325dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Digite o nome do Autor..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNome"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="LISTE OS LIVROS QUE JA LEU!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spAno"
+        android:layout_width="322dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/arrayAno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNome2" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spAno" />
+</androidx.constraintlayout.widget.ConstraintLayout>
