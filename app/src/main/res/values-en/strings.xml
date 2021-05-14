@@ -11,7 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string-array name="arrayAno">
-        <item>Selecione a década...</item>
+        <item>Select decade...</item>
         <item>1950</item>
         <item>1960</item>
         <item>1970</item>
@@ -20,10 +20,10 @@
         <item>2000</item>
     </string-array>
 
-    <string name="txtAtencao">Atenção</string>
-    <string name="txtNome">Digite o nome do livro...</string>
-    <string name="txtAutor">Digite o nome do autor...</string>
-    <string name="txtTitulo">LISTE OS LIVROS QUE JA LEU!</string>
+    <string name="txtAtencao">Attention</string>
+    <string name="txtNome">Enter the name of the book...</string>
+    <string name="txtAutor">Enter the name of the author...</string>
+    <string name="txtTitulo">LIST THE BOOKS YOU HAVE READ!</string>
 
 
 </resources>
